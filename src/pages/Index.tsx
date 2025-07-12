@@ -16,7 +16,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center fade-in">
             <img 
-              src="/lovable-uploads/3008cd3d-b8c3-4284-bacc-523a17a5fd44.png" 
+              src="/lovable-uploads/ce0326b6-2055-492c-aa7e-ebf4b46ef6fc.png" 
               alt="Logo AFIBROMED"
               className="h-24 w-auto mx-auto mb-8"
             />

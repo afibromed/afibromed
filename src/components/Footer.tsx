@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <img 
-                src="/lovable-uploads/3008cd3d-b8c3-4284-bacc-523a17a5fd44.png" 
+                src="/lovable-uploads/ce0326b6-2055-492c-aa7e-ebf4b46ef6fc.png" 
                 alt="Logo AFIBROMED"
                 className="h-8 w-auto"
               />
