@@ -24,11 +24,10 @@ const Index = () => {
               AFIBROMED
             </h1>
             <p className="text-xl md:text-2xl text-gray-700 mb-4 max-w-3xl mx-auto">
-              Asociación de Fibromialgia de Tarragona
+              Asociación gratuita de fibromialgia en El Vendrell (Tarragona)
             </p>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-              Brindamos apoyo, información y acompañamiento a personas con fibromialgia 
-              y sus familias. Juntos construimos una red de esperanza y comprensión.
+              LA FIBROMIALGIA NO NOS QUITARÁ LA ALEGRIA DE VIVIR
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
@@ -128,7 +127,11 @@ const Index = () => {
             </div>
             <div className="relative">
               <div className="aspect-square bg-gradient-to-br from-green-200 to-green-100 rounded-2xl flex items-center justify-center">
-                <HandHeart className="h-32 w-32 text-primary" />
+                <img 
+                  src="/lovable-uploads/8b3e5eaf-a555-4d7b-8510-77f745c5d079.png"
+                  alt="Ilustración de apoyo"
+                  className="h-64 w-auto object-contain"
+                />
               </div>
             </div>
           </div>
@@ -142,8 +145,7 @@ const Index = () => {
             ¿Necesitas Apoyo?
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            No estás solo. Nuestra asociación está aquí para acompañarte 
-            en cada paso del camino.
+            No estás solo. Estamos para acompañarte en cada paso del camino.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg" variant="secondary" className="bg-white text-primary hover:bg-gray-100">

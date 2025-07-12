@@ -18,8 +18,7 @@ const Footer = () => {
               <span className="text-lg font-bold text-primary">AFIBROMED</span>
             </div>
             <p className="text-sm text-gray-600 leading-relaxed">
-              Asociación de Fibromialgia de Tarragona. Brindamos apoyo, información y 
-              acompañamiento a personas con fibromialgia y sus familias.
+              ASOCIACIÓN DE FIBROMIALGIA PARA EL DIAGNÓSTICO Y TRATAMIENTO MÉDICO MULTIDISCIPLINAR DE LA FIBROMIALGIA, ASI COMO SU DIVULGACIÓN SOCIAL
             </p>
           </div>
 
@@ -55,7 +54,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-primary" />
-                <span className="text-sm text-gray-600">Tarragona, España</span>
+                <span className="text-sm text-gray-600">El Vendrell (Tarragona), España</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-primary" />

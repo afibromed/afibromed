@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
-import { Mail, MapPin, Phone, Clock, Users, Heart } from "lucide-react";
+import { Mail, MapPin, Phone, Clock } from "lucide-react";
 import { useState } from "react";
 
 const Contacto = () => {
@@ -175,7 +175,7 @@ const Contacto = () => {
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-1">Ubicación</h3>
                       <p className="text-gray-600">
-                        Tarragona, España<br />
+                        El Vendrell (Tarragona), España<br />
                         <span className="text-sm">
                           (La dirección específica se proporcionará a los miembros)
                         </span>
@@ -196,39 +196,6 @@ const Contacto = () => {
                       </p>
                     </div>
                   </div>
-                </CardContent>
-              </Card>
-
-              <Card className="border-green-200">
-                <CardHeader>
-                  <CardTitle className="text-xl text-gray-900 flex items-center">
-                    <Users className="mr-3 h-5 w-5 text-primary" />
-                    Únete a Nuestra Comunidad
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-600 mb-4">
-                    Si tienes fibromialgia o eres familiar de alguien que la padece, 
-                    te invitamos a formar parte de nuestra asociación.
-                  </p>
-                  <ul className="space-y-2 text-sm text-gray-600">
-                    <li className="flex items-center">
-                      <Heart className="h-4 w-4 text-primary mr-2" />
-                      Apoyo emocional y comprensión
-                    </li>
-                    <li className="flex items-center">
-                      <Heart className="h-4 w-4 text-primary mr-2" />
-                      Información actualizada y recursos
-                    </li>
-                    <li className="flex items-center">
-                      <Heart className="h-4 w-4 text-primary mr-2" />
-                      Actividades y talleres especializados
-                    </li>
-                    <li className="flex items-center">
-                      <Heart className="h-4 w-4 text-primary mr-2" />
-                      Red de contactos y amistad
-                    </li>
-                  </ul>
                 </CardContent>
               </Card>
             </div>
@@ -278,7 +245,7 @@ const Contacto = () => {
                   ¿Dónde se realizan las reuniones?
                 </h3>
                 <p className="text-gray-600 text-sm">
-                  Nuestras reuniones se realizan en Tarragona. La ubicación específica 
+                  Nuestras reuniones se realizan en El Vendrell (Tarragona). La ubicación específica 
                   se comunica a los miembros registrados. También ofrecemos algunas 
                   actividades online para mayor accesibilidad.
                 </p>
