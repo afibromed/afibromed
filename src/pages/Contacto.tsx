@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
-import { Mail, MapPin, Phone, Clock } from "lucide-react";
+import { Mail, MapPin, Phone, Clock, Globe } from "lucide-react";
 import { useState } from "react";
 
 const Contacto = () => {
@@ -179,6 +179,18 @@ const Contacto = () => {
                         <span className="text-sm">
                           (La dirección específica se proporcionará a los miembros)
                         </span>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start space-x-4">
+                    <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                      <Globe className="h-5 w-5 text-primary" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold text-gray-900 mb-1">Sitio Web</h3>
+                      <p className="text-gray-600">
+                        afibromed.org
                       </p>
                     </div>
                   </div>

@@ -16,7 +16,7 @@ const Fibromialgia = () => {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 fade-in">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              ¿Qué es la Fibromialgia?
+              ¿Qué es la fibromialgia?
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
               La fibromialgia es una condición crónica caracterizada por dolor muscular 
@@ -224,13 +224,13 @@ const Fibromialgia = () => {
         </div>
       </section>
 
-      {/* Vivir con Fibromialgia */}
+      {/* Vivir con fibromialgia */}
       <section className="py-12 bg-green-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <Card className="border-green-200">
             <CardHeader className="text-center">
               <CardTitle className="text-3xl text-gray-900 mb-4">
-                Vivir con Fibromialgia
+                Vivir con fibromialgia
               </CardTitle>
             </CardHeader>
             <CardContent className="text-lg text-gray-700 leading-relaxed space-y-6">
@@ -251,6 +251,42 @@ const Fibromialgia = () => {
               </p>
             </CardContent>
           </Card>
+        </div>
+      </section>
+
+      {/* Misión y Call to Action combinados */}
+      <section className="py-12">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="slide-up">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+                Nuestra Misión
+              </h2>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                Mejorar la calidad de vida de las personas afectadas por fibromialgia 
+                y sus familias, proporcionando apoyo, información y fomentando la 
+                comprensión social de esta condición.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Creemos en el poder de la comunidad y en que nadie debe enfrentar 
+                la fibromialgia en soledad. Juntos somos más fuertes.
+              </p>
+            </div>
+            <div className="bg-primary text-white p-8 rounded-2xl text-center">
+              <h2 className="text-3xl font-bold mb-6">
+                ¿Necesitas Apoyo?
+              </h2>
+              <p className="text-lg mb-6 opacity-90">
+                No estás solo. Estamos para acompañarte en cada paso del camino.
+              </p>
+              <Button asChild size="lg" variant="secondary" className="bg-white text-primary hover:bg-gray-100">
+                <Link to="/contacto">
+                  <Phone className="mr-2 h-5 w-5" />
+                  Contáctanos
+                </Link>
+              </Button>
+            </div>
+          </div>
         </div>
       </section>
 
