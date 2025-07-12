@@ -24,7 +24,7 @@ const Index = () => {
               AFIBROMED
             </h1>
             <p className="text-xl md:text-2xl text-gray-700 mb-4 max-w-3xl mx-auto">
-              Asociación gratuita de fibromialgia en El Vendrell (Tarragona)
+              Asociación de fibromialgia gratuita para el diagnóstico y tratamiento médico multidisciplinar de la fibromialgia, asi como su divulgación social
             </p>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
               LA FIBROMIALGIA NO NOS QUITARÁ LA ALEGRIA DE VIVIR
@@ -108,7 +108,7 @@ const Index = () => {
       </section>
 
       {/* Misión y Visión */}
-      <section className="py-16 bg-green-50">
+      <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="slide-up">
@@ -126,9 +126,9 @@ const Index = () => {
               </p>
             </div>
             <div className="relative">
-              <div className="aspect-square bg-gradient-to-br from-green-200 to-green-100 rounded-2xl flex items-center justify-center">
+              <div className="aspect-square bg-white rounded-2xl flex items-center justify-center">
                 <img 
-                  src="/lovable-uploads/8b3e5eaf-a555-4d7b-8510-77f745c5d079.png"
+                  src="/lovable-uploads/1b04b56a-f091-421c-b215-cb3f8fefc1a8.png"
                   alt="Ilustración de apoyo"
                   className="h-64 w-auto object-contain"
                 />

@@ -160,10 +160,10 @@ const Contacto = () => {
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-1">Correo Electrónico</h3>
                       <a 
-                        href="mailto:info@afibromed.org" 
+                        href="mailto:afibromed@gmail.com" 
                         className="text-primary hover:underline"
                       >
-                        info@afibromed.org
+                        afibromed@gmail.com
                       </a>
                     </div>
                   </div>
@@ -199,58 +199,6 @@ const Contacto = () => {
                 </CardContent>
               </Card>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Section */}
-      <section className="py-12 bg-green-50">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Preguntas Frecuentes
-            </h2>
-          </div>
-          
-          <div className="space-y-4">
-            <Card className="border-green-200">
-              <CardContent className="p-6">
-                <h3 className="font-semibold text-gray-900 mb-2">
-                  ¿Cómo puedo unirme a AFIBROMED?
-                </h3>
-                <p className="text-gray-600 text-sm">
-                  Puedes contactarnos a través de este formulario o enviando un email a 
-                  info@afibromed.org. Te proporcionaremos toda la información necesaria 
-                  sobre los requisitos y beneficios de ser miembro.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-green-200">
-              <CardContent className="p-6">
-                <h3 className="font-semibold text-gray-900 mb-2">
-                  ¿Ofrecen servicios gratuitos?
-                </h3>
-                <p className="text-gray-600 text-sm">
-                  Sí, muchos de nuestros servicios son gratuitos para los miembros, 
-                  incluyendo grupos de apoyo, información y recursos educativos. 
-                  Algunos talleres especializados pueden tener un costo simbólico.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border-green-200">
-              <CardContent className="p-6">
-                <h3 className="font-semibold text-gray-900 mb-2">
-                  ¿Dónde se realizan las reuniones?
-                </h3>
-                <p className="text-gray-600 text-sm">
-                  Nuestras reuniones se realizan en El Vendrell (Tarragona). La ubicación específica 
-                  se comunica a los miembros registrados. También ofrecemos algunas 
-                  actividades online para mayor accesibilidad.
-                </p>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>

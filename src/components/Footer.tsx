@@ -17,9 +17,6 @@ const Footer = () => {
               />
               <span className="text-lg font-bold text-primary">AFIBROMED</span>
             </div>
-            <p className="text-sm text-gray-600 leading-relaxed">
-              ASOCIACIÓN DE FIBROMIALGIA PARA EL DIAGNÓSTICO Y TRATAMIENTO MÉDICO MULTIDISCIPLINAR DE LA FIBROMIALGIA, ASI COMO SU DIVULGACIÓN SOCIAL
-            </p>
           </div>
 
           {/* Enlaces rápidos */}
@@ -59,10 +56,10 @@ const Footer = () => {
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-primary" />
                 <a 
-                  href="mailto:info@afibromed.org" 
+                  href="mailto:afibromed@gmail.com" 
                   className="text-sm text-gray-600 hover:text-primary transition-colors"
                 >
-                  info@afibromed.org
+                  afibromed@gmail.com
                 </a>
               </div>
             </div>
