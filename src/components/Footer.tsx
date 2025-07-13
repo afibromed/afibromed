@@ -63,14 +63,6 @@ const Footer = () => {
                 </a>
               </div>
               <div className="flex items-center space-x-2">
-                <Building className="h-4 w-4 text-primary" />
-                <div className="text-sm text-gray-600">
-                  <div>Razón Social: AFIBROMED</div>
-                  <div>NIF: G-55716971</div>
-                  <div>Núm. inscripción Asociaciones de Catalunya: 61873</div>
-                </div>
-              </div>
-              <div className="flex items-center space-x-2">
                 <Globe className="h-4 w-4 text-primary" />
                 <span className="text-sm text-gray-600">afibromed.org</span>
               </div>
