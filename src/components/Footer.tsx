@@ -1,5 +1,5 @@
 
-import { MapPin, Mail, Globe } from "lucide-react";
+import { MapPin, Mail, Globe, Building } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -7,15 +7,15 @@ const Footer = () => {
     <footer className="bg-green-50 border-t border-green-100 mt-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Logo y descripción */}
+          {/* Legal */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-3">
-              <img 
-                src="/lovable-uploads/931dd14e-ac4f-420e-8a1c-96340d895aff.png" 
-                alt="Logo AFIBROMED"
-                className="h-8 w-auto"
-              />
-              <span className="text-lg font-bold text-primary">AFIBROMED</span>
+            <h3 className="text-sm font-bold text-gray-900 uppercase tracking-wider mb-4">
+              LEGAL
+            </h3>
+            <div className="text-sm text-gray-600 leading-relaxed">
+              <div>AFIBROMED</div>
+              <div>NIF: G-55716971</div>
+              <div>Núm. inscripción Asociaciones de Catalunya: 61873</div>
             </div>
           </div>
 
@@ -61,6 +61,14 @@ const Footer = () => {
                 >
                   afibromed@gmail.com
                 </a>
+              </div>
+              <div className="flex items-center space-x-2">
+                <Building className="h-4 w-4 text-primary" />
+                <div className="text-sm text-gray-600">
+                  <div>Razón Social: AFIBROMED</div>
+                  <div>NIF: G-55716971</div>
+                  <div>Núm. inscripción Asociaciones de Catalunya: 61873</div>
+                </div>
               </div>
               <div className="flex items-center space-x-2">
                 <Globe className="h-4 w-4 text-primary" />

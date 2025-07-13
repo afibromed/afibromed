@@ -108,38 +108,50 @@ const Index = () => {
         </div>
       </section>
 
-      {/* ¿Necesitas Apoyo? */}
-      <section className="py-16 bg-white">
+      {/* Nuestra Misión */}
+      <section className="py-16 bg-green-50">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-primary text-white p-8 rounded-2xl text-center">
-            <h2 className="text-3xl font-bold mb-6">
-              ¿Necesitas Apoyo?
+          <div className="text-center mb-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+              Nuestra Misión
             </h2>
-            <p className="text-lg mb-6 opacity-90">
-              No estás solo. Estamos para acompañarte en cada paso del camino.
+          </div>
+          
+          <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
+            <p>
+              <strong>AFIBROMED</strong> es una asociación sin ánimo de lucro dedicada al apoyo integral 
+              de personas con fibromialgia y sus familias. Nuestro compromiso es proporcionar recursos, 
+              información y acompañamiento para mejorar la calidad de vida de quienes conviven con esta condición.
             </p>
-            <Button asChild size="lg" variant="secondary" className="bg-white text-primary hover:bg-gray-100">
-              <Link to="/contacto">
-                Contáctanos
-              </Link>
-            </Button>
+            
+            <p>
+              Trabajamos incansablemente para promover la investigación, la sensibilización social y 
+              la defensa de los derechos de las personas con fibromialgia. Creemos firmemente que 
+              <strong> la fibromialgia no nos quitará la alegría de vivir</strong>.
+            </p>
+            
+            <p>
+              A través de grupos de apoyo, recursos educativos y actividades de sensibilización, 
+              construimos una comunidad donde nadie tiene que enfrentar la fibromialgia en soledad. 
+              Juntos somos más fuertes.
+            </p>
           </div>
         </div>
       </section>
 
-      {/* Call to Action */}
-      <section className="py-16 bg-primary text-white">
+      {/* ¿Necesitas Más Información? */}
+      <section className="py-16 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
             ¿Necesitas Más Información?
           </h2>
-          <p className="text-xl mb-8 opacity-90">
+          <p className="text-xl mb-8 text-gray-600">
             Estamos aquí para ayudarte. No dudes en contactarnos para recibir 
-            apoyo, información adicional o unirte a nuestra comunidad.
+            información adicional o unirte a nuestra comunidad.
           </p>
-          <Button asChild size="lg" variant="secondary" className="bg-white text-primary hover:bg-gray-100">
+          <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
             <Link to="/contacto">
-              Contáctanos Ahora
+              Contáctanos
             </Link>
           </Button>
         </div>
