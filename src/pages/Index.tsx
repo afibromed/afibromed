@@ -1,10 +1,11 @@
 
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import CookieConsent from "@/components/CookieConsent";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-import { Heart, Users, Phone, Calendar, HandHeart, Shield } from "lucide-react";
+import { Heart, Users, Shield } from "lucide-react";
 
 const Index = () => {
   return (
@@ -16,7 +17,7 @@ const Index = () => {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center fade-in">
             <img 
-              src="/lovable-uploads/ce0326b6-2055-492c-aa7e-ebf4b46ef6fc.png" 
+              src="/lovable-uploads/931dd14e-ac4f-420e-8a1c-96340d895aff.png" 
               alt="Logo AFIBROMED"
               className="h-24 w-auto mx-auto mb-8"
             />
@@ -107,7 +108,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Misión y Visión */}
+      {/* Misión y Call to Action */}
       <section className="py-16 bg-white">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -125,46 +126,25 @@ const Index = () => {
                 la fibromialgia en soledad. Juntos somos más fuertes.
               </p>
             </div>
-            <div className="relative">
-              <div className="aspect-square bg-white rounded-2xl flex items-center justify-center">
-                <img 
-                  src="/lovable-uploads/1b04b56a-f091-421c-b215-cb3f8fefc1a8.png"
-                  alt="Ilustración de apoyo"
-                  className="h-64 w-auto object-contain"
-                />
-              </div>
+            <div className="bg-primary text-white p-8 rounded-2xl text-center">
+              <h2 className="text-3xl font-bold mb-6">
+                ¿Necesitas Apoyo?
+              </h2>
+              <p className="text-lg mb-6 opacity-90">
+                No estás solo. Estamos para acompañarte en cada paso del camino.
+              </p>
+              <Button asChild size="lg" variant="secondary" className="bg-white text-primary hover:bg-gray-100">
+                <Link to="/contacto">
+                  Contáctanos
+                </Link>
+              </Button>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Call to Action */}
-      <section className="py-16 bg-primary text-white">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            ¿Necesitas Apoyo?
-          </h2>
-          <p className="text-xl mb-8 opacity-90">
-            No estás solo. Estamos para acompañarte en cada paso del camino.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" variant="secondary" className="bg-white text-primary hover:bg-gray-100">
-              <Link to="/contacto">
-                <Phone className="mr-2 h-5 w-5" />
-                Contáctanos
-              </Link>
-            </Button>
-            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
-              <Link to="/fibromialgia">
-                <Calendar className="mr-2 h-5 w-5" />
-                Más Información
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
       <Footer />
+      <CookieConsent />
     </div>
   );
 };

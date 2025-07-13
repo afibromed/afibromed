@@ -1,5 +1,5 @@
 
-import { Heart, Mail, MapPin } from "lucide-react";
+import { MapPin, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
               <img 
-                src="/lovable-uploads/ce0326b6-2055-492c-aa7e-ebf4b46ef6fc.png" 
+                src="/lovable-uploads/931dd14e-ac4f-420e-8a1c-96340d895aff.png" 
                 alt="Logo AFIBROMED"
                 className="h-8 w-auto"
               />
@@ -66,15 +66,10 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-green-200 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center">
+        <div className="border-t border-green-200 mt-8 pt-8 flex justify-center">
           <p className="text-xs text-gray-500">
-            © 2024 AFIBROMED. Todos los derechos reservados.
+            © AFIBROMED. Todos los derechos reservados.
           </p>
-          <div className="flex items-center space-x-1 text-xs text-gray-500 mt-2 sm:mt-0">
-            <span>Hecho con</span>
-            <Heart className="h-3 w-3 text-red-500" />
-            <span>para nuestra comunidad</span>
-          </div>
         </div>
       </div>
     </footer>

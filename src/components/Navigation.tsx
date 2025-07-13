@@ -23,7 +23,7 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
             <img 
-              src="/lovable-uploads/ce0326b6-2055-492c-aa7e-ebf4b46ef6fc.png" 
+              src="/lovable-uploads/931dd14e-ac4f-420e-8a1c-96340d895aff.png" 
               alt="Logo AFIBROMED"
               className="h-10 w-auto"
             />
