@@ -10,7 +10,7 @@ const Navigation = () => {
 
   const navItems = [
     { path: "/", label: "Inicio" },
-    { path: "/fibromialgia", label: "Qué es la Fibromialgia" },
+    { path: "/fibromialgia", label: "Qué es la fibromialgia" },
     { path: "/contacto", label: "Contacto" },
   ];
 
@@ -27,7 +27,7 @@ const Navigation = () => {
               alt="Logo AFIBROMED"
               className="h-10 w-auto"
             />
-            <span className="text-xl font-bold text-primary">AFIBROMED</span>
+            <span className="text-xl font-bold text-primary">AFIBROMED.ORG</span>
           </Link>
 
           {/* Desktop Navigation */}

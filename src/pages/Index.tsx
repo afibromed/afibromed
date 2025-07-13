@@ -33,7 +33,7 @@ const Index = () => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="bg-primary hover:bg-primary/90">
                 <Link to="/fibromialgia">
-                  Conoce la Fibromialgia
+                  Conoce la fibromialgia
                 </Link>
               </Button>
               <Button asChild variant="outline" size="lg" className="border-primary text-primary hover:bg-primary/10">
@@ -108,32 +108,21 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Misión y Call to Action */}
+      {/* ¿Necesitas Apoyo? */}
       <section className="py-16 bg-white">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="slide-up">
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                Nuestra Misión
-              </h2>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Mejorar la calidad de vida de las personas afectadas por fibromialgia 
-                y sus familias, proporcionando apoyo, información y fomentando la 
-                comprensión social de esta condición.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Creemos en el poder de la comunidad y en que nadie debe enfrentar 
-                la fibromialgia en soledad. Juntos somos más fuertes.
-              </p>
-            </div>
-            <div className="bg-primary text-white p-8 rounded-2xl text-center">
-              <h2 className="text-3xl font-bold mb-6">
-                ¿Necesitas Apoyo?
-              </h2>
-              <p className="text-lg mb-6 opacity-90">
-                No estás solo. Estamos para acompañarte en cada paso del camino.
-              </p>
-            </div>
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-primary text-white p-8 rounded-2xl text-center">
+            <h2 className="text-3xl font-bold mb-6">
+              ¿Necesitas Apoyo?
+            </h2>
+            <p className="text-lg mb-6 opacity-90">
+              No estás solo. Estamos para acompañarte en cada paso del camino.
+            </p>
+            <Button asChild size="lg" variant="secondary" className="bg-white text-primary hover:bg-gray-100">
+              <Link to="/contacto">
+                Contáctanos
+              </Link>
+            </Button>
           </div>
         </div>
       </section>
