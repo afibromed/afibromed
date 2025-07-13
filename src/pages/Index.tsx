@@ -133,13 +133,26 @@ const Index = () => {
               <p className="text-lg mb-6 opacity-90">
                 No estás solo. Estamos para acompañarte en cada paso del camino.
               </p>
-              <Button asChild size="lg" variant="secondary" className="bg-white text-primary hover:bg-gray-100">
-                <Link to="/contacto">
-                  Contáctanos
-                </Link>
-              </Button>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Call to Action */}
+      <section className="py-16 bg-primary text-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            ¿Necesitas Más Información?
+          </h2>
+          <p className="text-xl mb-8 opacity-90">
+            Estamos aquí para ayudarte. No dudes en contactarnos para recibir 
+            apoyo, información adicional o unirte a nuestra comunidad.
+          </p>
+          <Button asChild size="lg" variant="secondary" className="bg-white text-primary hover:bg-gray-100">
+            <Link to="/contacto">
+              Contáctanos Ahora
+            </Link>
+          </Button>
         </div>
       </section>
 

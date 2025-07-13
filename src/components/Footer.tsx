@@ -1,5 +1,5 @@
 
-import { MapPin, Mail } from "lucide-react";
+import { MapPin, Mail, Globe } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -32,7 +32,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/fibromialgia" className="text-sm text-gray-600 hover:text-primary transition-colors">
-                  Qué es la Fibromialgia
+                  Qué es la fibromialgia
                 </Link>
               </li>
               <li>
@@ -61,6 +61,10 @@ const Footer = () => {
                 >
                   afibromed@gmail.com
                 </a>
+              </div>
+              <div className="flex items-center space-x-2">
+                <Globe className="h-4 w-4 text-primary" />
+                <span className="text-sm text-gray-600">afibromed.org</span>
               </div>
             </div>
           </div>

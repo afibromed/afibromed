@@ -3,7 +3,7 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import CookieConsent from "@/components/CookieConsent";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Mail, MapPin, Globe } from "lucide-react";
+import { Mail, MapPin, Globe, Building } from "lucide-react";
 
 const Contacto = () => {
   return (
@@ -76,6 +76,20 @@ const Contacto = () => {
                     <p className="text-gray-600">
                       afibromed.org
                     </p>
+                  </div>
+                </div>
+
+                <div className="flex items-start space-x-4">
+                  <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
+                    <Building className="h-5 w-5 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-gray-900 mb-1">Información Legal</h3>
+                    <div className="text-gray-600 space-y-1">
+                      <p>Razón Social: AFIBROMED</p>
+                      <p>NIF: G-55716971</p>
+                      <p>Núm. inscripción Asociaciones de Catalunya: 61873</p>
+                    </div>
                   </div>
                 </div>
               </CardContent>

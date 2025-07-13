@@ -1,10 +1,9 @@
-
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { AlertCircle, Brain, Heart, Users, Activity, Shield, Phone } from "lucide-react";
+import { AlertCircle, Brain, Heart, Users, Activity, Shield } from "lucide-react";
 
 const Fibromialgia = () => {
   return (
@@ -279,12 +278,6 @@ const Fibromialgia = () => {
               <p className="text-lg mb-6 opacity-90">
                 No estás solo. Estamos para acompañarte en cada paso del camino.
               </p>
-              <Button asChild size="lg" variant="secondary" className="bg-white text-primary hover:bg-gray-100">
-                <Link to="/contacto">
-                  <Phone className="mr-2 h-5 w-5" />
-                  Contáctanos
-                </Link>
-              </Button>
             </div>
           </div>
         </div>
@@ -294,7 +287,7 @@ const Fibromialgia = () => {
       <section className="py-16 bg-primary text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            ¿Necesitas Más Información o Apoyo?
+            ¿Necesitas Más Información?
           </h2>
           <p className="text-xl mb-8 opacity-90">
             Estamos aquí para ayudarte. No dudes en contactarnos para recibir 
@@ -302,7 +295,6 @@ const Fibromialgia = () => {
           </p>
           <Button asChild size="lg" variant="secondary" className="bg-white text-primary hover:bg-gray-100">
             <Link to="/contacto">
-              <Phone className="mr-2 h-5 w-5" />
               Contáctanos Ahora
             </Link>
           </Button>
