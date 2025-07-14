@@ -32,12 +32,17 @@ const Footer = () => {
               </li>
               <li>
                 <Link to="/fibromialgia" className="text-sm text-gray-600 hover:text-primary transition-colors">
-                  Qué es la fibromialgia
+                  ¿Qué es la fibromialgia?
                 </Link>
               </li>
               <li>
                 <Link to="/contacto" className="text-sm text-gray-600 hover:text-primary transition-colors">
                   Contacto
+                </Link>
+              </li>
+              <li>
+                <Link to="/politica-cookies" className="text-sm text-gray-600 hover:text-primary transition-colors">
+                  Política de cookies
                 </Link>
               </li>
             </ul>

@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Fibromialgia from "./pages/Fibromialgia";
 import Contacto from "./pages/Contacto";
+import PoliticaCookies from "./pages/PoliticaCookies";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -21,6 +22,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/fibromialgia" element={<Fibromialgia />} />
           <Route path="/contacto" element={<Contacto />} />
+          <Route path="/politica-cookies" element={<PoliticaCookies />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
