@@ -1,4 +1,3 @@
-
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import CookieConsent from "@/components/CookieConsent";
@@ -16,15 +15,7 @@ const Index = () => {
       <section className="relative py-20 overflow-hidden">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center fade-in">
-            <img 
-              src="/lovable-uploads/931dd14e-ac4f-420e-8a1c-96340d895aff.png" 
-              alt="Logo AFIBROMED"
-              className="h-24 w-auto mx-auto mb-8"
-            />
-            <h1 className="text-4xl md:text-6xl font-bold text-primary mb-6">
-              AFIBROMED
-            </h1>
-            <p className="text-xl md:text-2xl text-gray-700 mb-4 max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl text-gray-700 mb-4 max-w-3xl mx-auto font-bold">
               Asociación de fibromialgia gratuita para el diagnóstico y tratamiento médico multidisciplinar de la fibromialgia, asi como su divulgación social
             </p>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">

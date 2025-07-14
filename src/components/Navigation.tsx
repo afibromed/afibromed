@@ -1,4 +1,3 @@
-
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
@@ -10,7 +9,7 @@ const Navigation = () => {
 
   const navItems = [
     { path: "/", label: "Inicio" },
-    { path: "/fibromialgia", label: "Qué es la fibromialgia" },
+    { path: "/fibromialgia", label: "¿Qué es la fibromialgia?" },
     { path: "/contacto", label: "Contacto" },
   ];
 
